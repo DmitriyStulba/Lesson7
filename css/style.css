@@ -1,0 +1,421 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+/* ------------------------------ */
+.header,
+.footer {
+	background-image: linear-gradient(135deg, rgba(50,95,255,1) 0%,rgba(255,48,51,1) 32%,rgba(0,0,0,1) 58%,rgba(79,131,158,1) 100%);;
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	padding: 50px;
+	text-shadow: 4px 4px 2px rgba(125,185,232,0.5);
+}
+.main {
+
+	background: url("../img/2.jpg") 0 0 repeat-y;
+	color: blanchedalmond;
+}
+h2 {
+	font-family: 'Kosugi Maru', sans-serif;
+	font-style: oblique;
+	color: rgba(0, 0, 0, 0.664);
+	background: rgba(215, 250, 18, 0.5);
+	border: #d6292994 5px solid;
+	box-shadow: 5px 5px 10px rgba(240, 33, 26, 0.596);
+	border-radius: 20px;
+	font-weight: 500;
+	font-size: 35px;
+	max-width: 500px;
+	padding: 15px;
+	margin: 0px auto 30px auto;
+	
+}
+.box {
+	text-align: center;
+	padding-top: 20px;
+	line-height: 200%;
+	word-spacing: 20px;
+	
+	/* padding-left: 20px;
+	padding-right: 20px; */
+}
+
+.box1 {
+	font-size: 30px;
+	padding: 30px 0px;
+	margin: 0px auto 50px auto;
+	max-width: 100%;
+	box-shadow: 10px 10px 20px rgb(255, 249, 250);
+	border-radius: 50px 90px;
+}
+
+.color1 {
+	background: rgb(54, 52, 70);
+	color: rgb(140, 141, 99);
+	display: inline-block;
+	/* min-height: 200px; */
+	width: 250px;
+	font-weight: 400;
+	border: 3px solid #445d74;
+	border-radius: 50px 20px;
+	padding: 30px;
+	margin: 0px 10px 50px 10px;
+}
+.color2 {
+	background: rgba(144, 39, 39, 0.4);
+	color: #000000;
+	display: inline-block;
+	/* min-height: 200px; */
+	width: auto;
+	font-weight: 400;
+	border: 3px solid #445d74;
+	border-radius: 50px 20px;
+	padding: 30px;
+	margin: 0px 10px 50px 10px;
+
+}
+.box2 {
+	font-family: 'Aclonica', sans-serif;
+	font-size: 30px;
+	
+} 
+.image1 {
+	
+	color: rgb(120, 216, 216);
+	display: inline-block;
+	width: 300px;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border-radius: 20px;
+	box-shadow:-15px -10px 50px rgb(246, 146, 5);
+	background: radial-gradient(ellipse at center, rgba(30,87,153,1) 0%,rgba(30,87,153,1) 10%,rgba(191,38,124,1) 20%,rgba(30,87,153,1) 31%,rgba(214,139,34,1) 50%,rgba(41,137,216,1) 68%,rgba(79,232,37,1) 86%,rgba(125,185,232,1) 100%);
+}
+
+.image2 {
+	
+	color: darkorange;
+	display: inline-block;
+	width: 500px;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border-radius: 50%;
+	background-image: url("../img/pn.png");
+	background-color:rgba(214,139,34,0.5)
+}
+.box3 {
+	font-size: 35px;
+
+}
+.repeat1 {
+	
+	color: rgb(233, 6, 214);
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: repeat;
+}
+.norepead1 {
+	color: seashell;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	/* background-image: url("../img/sun48px.png");
+	background-repeat: no-repeat; */
+	/* Универсальная запись */
+	background: rgb(120, 216, 216) url("../img/sun48px.png") no-repeat;
+
+}
+.space {
+	color: seashell;
+	text-align: justify;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: space;
+
+}
+.round {
+	color: seashell;
+	text-align: justify;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: round;
+}
+.repeatx {
+	color: seashell;
+	text-align: justify;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: repeat-x;
+}
+.repeaty {
+	color: seashell;
+	text-align: justify;
+	padding: 50px;
+	margin: 0px auto 20px auto;
+	border: 5px solid rgba(125,185,232,1);
+	border-radius: 10px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: repeat-y;
+}
+.box4 {
+	font-size: 50px;
+}
+.position1 {
+	border: 5px solid yellowgreen;
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.position2 {
+	border: 5px solid yellowgreen;
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.position3 {
+	border: 5px solid yellowgreen;
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	background-image: url("../img/sun48px.png");
+	background-repeat: no-repeat;
+	/* background-position: 20px 150px;
+	background-position: 20% 15%; лучше в %
+	background-position: 10% 90px;*/
+	/* Универсальная запись того что было выше */
+	background: hsla(348, 96%, 50%, 0.513) url("../img/sun48px.png") 0 0 no-repeat;
+}
+.box5 p {
+	font-size: 40px;
+	color: burlywood;
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	border: 5px solid yellowgreen;
+	background-image: url("../img/sun48px.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+}
+.sizep1 {	
+	background-size: 150px;
+}
+.sizep2 {
+
+	background-size: 30%;
+}
+.sizep3 {
+	max-width: 400px;
+	background-size: cover;
+}
+.attfixed {
+	font-size: 40px;
+	font-style: oblique;
+	color: rgb(255, 208, 0);
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	border: 5px solid yellowgreen;
+	background-image: url("../img/3.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.attfixed + * {
+	display: block;
+	border-radius: 20px ;
+	overflow: auto;
+	width: 300px;
+	/* Высоту блока добавил для наглядности */
+	max-height: 300px;
+	line-height: 150%;
+	font-size: 32px;
+	padding: 50px;
+	margin: 0px 25px 25px 25px;
+	border: 5px solid yellowgreen;
+	background-image: url("../img/cosmos.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: auto 100%;
+	background-attachment: scroll;
+}
+.test{
+	font-family: 'Aclonica', sans-serif;
+	font-style: oblique;
+	font-size: 25px;
+	line-height: 110%;
+	color: rgba(2, 255, 255, 0.726);
+	padding: 20px;
+	margin: 0 auto 50px auto;
+	background: url("../img/sun48px.png") 10px 10px no-repeat, url("../img/1.jpg") 90% / 90px repeat-x,rgba(58, 54, 0, 0.692) url("../img/pn.png")100%/cover no-repeat;
+}
+ul li {
+	/* text-align: right; */
+	border: 5px solid white;
+	margin: 0px 50px 20px 50px;
+	font-size: 40px;
+	max-width: 600px;
+	min-height: 50px;
+	background: url("../img/sun48px.png") 100% 0/ 40px no-repeat;
+	padding: 10px 20px;
+}
+.testfig1 {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F5F5F5;
+	color: #4B4B4B;
+	display: inline-block;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+.contact h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+	padding-bottom: 28px;
+}
+.contact1,
+.contact2,
+.contact3,
+.contact4 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+}
+.contact1 {
+	background: url("../img/place_24px.png")2px 2px  no-repeat;
+	margin: 0px 0px 16px 0px;
+	padding-left: 35px;
+	width: 200px;
+	height: 50px;
+}
+.contact2 {
+	background: url("../img/smartphone_24px.png") 2px 2px no-repeat;
+    margin: 0px 0px 16px 0px;
+	padding-left: 35px;
+	width: 200px;
+	height: 20px;
+}
+.contact3 {
+	background: url("../img/email_24px.png")2px 2px no-repeat;
+	margin-bottom: 17px;
+	padding-left: 35px;
+	width: 200px;
+	height: 20px;
+}
+.contact4 {
+	background: url("../img/timer_24px.png") 2px 0px no-repeat;
+	padding-left: 35px;
+	/* width: 200px;
+	height: 20px; */
+}
+/* готов к любой критике, мозг взорвал пытаясь сделать подобно макету. Была непонятная проблема с картинкой. Она не центрировалась*/
+/* не смог выставить Make an Appointment по центру кнопки*/
+/* в данном разделе не определился как и где ставить margin, а где padding */
+.testfig2 {
+	font-family: 'Roboto', sans-serif;
+	background: url("../img/Heroshot1.png") left no-repeat;
+	width: 1440px;
+	height: 800px;
+    margin: 0px auto 40px auto;
+}
+.texttest {
+	text-align: left;
+	margin: 0 auto;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	max-width: 583px;
+	/* есть мысль что этот падинг надо реорганизовать и в падинг и в мэджин */
+	/* padding: 280px 647px 0px 210px; */
+	/* margin-bottom: 48px; */
+	padding-top: 280px;
+	margin: 0px 0px 57px 210px;
+}
+a {
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	padding: 9px 50px 9px 12px;
+	margin: 0px 0px 0px 210px;
+	text-transform: uppercase;
+	width: 211px;
+	height: 48px;
+	align-items: center;
+	background: #c40B0B url("../img/ButtonTreatment48px.png") right no-repeat;
+	
+}
